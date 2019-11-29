@@ -17,7 +17,7 @@ public class Obstacle : MonoBehaviour
     {
         if (GM.isActive)
         {
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            transform.Translate(Vector3.left * speed * Time.deltaTime);//make the obstacle automatically move from right to left
         }
     }
 

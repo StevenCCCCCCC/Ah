@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GM : MonoBehaviour
 {
-    public static int score = 0;
-    public static bool isActive = true;
+    public static int score = 0;//store the score variable
+    public static bool isActive = true;//store whether player dies
     
     // Start is called before the first frame update
     void Start()

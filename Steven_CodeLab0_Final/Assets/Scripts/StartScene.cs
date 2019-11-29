@@ -15,10 +15,10 @@ public class StartScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        volume1 = AudioInput.volume;
+        volume1 = AudioInput.volume;//get the input volume by player
         if (volume1 > 0.5f) {
             ChangeScene("SampleScenes");
-        }
+        }//if the voice is loud enough, then start the game
     }
 
     //change to a new scene

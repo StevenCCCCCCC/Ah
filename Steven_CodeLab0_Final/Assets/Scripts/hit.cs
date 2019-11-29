@@ -16,6 +16,7 @@ public class hit : MonoBehaviour
         
     }
 
+    //if this object is hit by object tagged "Player", then stop actinvating game manager
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") {
