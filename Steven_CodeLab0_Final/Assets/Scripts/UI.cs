@@ -31,6 +31,7 @@ public class UI : MonoBehaviour
         {
             gameover.gameObject.SetActive(true);
             score.gameObject.SetActive(false);
+            GM.score = 0;
             Invoke("RestartTimer", RestartTime);//Set the scene to the start scene after 3 secs.
        
         }
